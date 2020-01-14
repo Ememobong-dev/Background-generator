@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+}
+.navbar .nav-link{
+padding-left: 1rem !important;
+padding-right: 1rem !important;
+text-transform: uppercase;
+font-size: 14px;
+}
+.navbar .nav-item.active{
+border-left: #444 3px solid;
+}
+.carousel-item{
+    height: 350px;
+}
+.carousel-image-1{
+ background: url(../Glozzam/img1/image1.jpg);
+    background-size: cover;
+}
+.carousel-image-2{
+    background: url(../Glozzam/img1/image2.jpg);
+    background-size: cover;
+}
+.carousel-image-3{
+    background: url(../Glozzam/img1/image3.jpg);
+    background-size: cover;
+}
+#home-header{
+    position: relative;
+    background-repeat: no-repeat;
+    background: url(../Glozzam/img1/lights.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    min-height: 200px;
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#video{
+        position: relative;
+        background-repeat: no-repeat;
+        background: url(../Glozzam/img1/media.jpg);
+        background-size: cover;
+        text-align: center;
+        color: white;
+        min-height: 200px;
+        background-position: 0 -300px;
+        background-attachment: fixed;
+}
+#video a{
+   color:"white";
+}
+#page-header{
+    position: relative;
+    background: url(../Glozzam/img1/image1.jpg);
+    background-size: cover;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+.about-img{
+    margin-top: -50px
+}
+#testimonials .blockquote{
+    text-align: center;
+}
+#main-footer{
+    background-color: black;
+    color: white;
+}
+#FAQ a{
+    text-decoration: none;
+    color: white;
+}
+#accordianId .card-body,
+#accordianId .card-header{
+    background: #333;
+    color: white;
+}
+#services .list-group{
+    text-align: center;
+}
+.blog-img{
+    width: 600px;
+    height: 400px;
+}
+#blog .card-columns{
+   margin-top: 50px;
+}
+#staff{
+    text-align: center;
+}
+#contact .card{
+    margin-top: 50px;
+}
+#gallery .img-fluid{
+    width: 600px;
+    height: 400px;
+}
